@@ -45,7 +45,7 @@ Fizz
 Buzz
 """
 number=int(input(("How many numbers shall we print? ")))
-Fizz=int(input(("For Multiples of what number shall we print 'Fizz'? ")))
+Fizz=int(input(("For multiples of what number shall we print 'Fizz'? ")))
 Buzz=int(input(("For multiples of what number shall we print 'Buzz'? ")))
 for i in range(1,(number+1)):
     if i%Fizz == 0 and i%Buzz > 0:
